@@ -1,0 +1,55 @@
+1. Why does ENISA release this report? What is the motivation?
+ENISA's report is made to help understand and manage cyber threats in the EU. It looks at trends, hacker activities, weak spots, and incidents to guide cybersecurity work. This helps in making informed choices and setting priorities.
+
+2. What is the target audience?
+Typically, such reports target cybersecurity professionals, policymakers, organizations, and other stakeholders interested in cybersecurity trends, threats, and countermeasures.
+
+3. What are supply-chain attacks and why are they not discussed in the report?
+Supply-chain attacks target the relationship between organizations and their suppliers, aiming to compromise both to gain access to assets. The ENISA report considers an attack a supply-chain attack only if it involves at least two attacks: an initial one on a supplier, then leveraging that to target the final customer or another supplier. Incidents where, for example, developer libraries were compromised without a specific victim in mind, are briefly covered but not considered part of this threat landscape due to their nature and the report's focus.
+
+4. Which of the following statements are true according to the ENISA ETL?
+a. The variety and number of observed attacks has increased
+The report notes a significant increase in both the variety and number of cybersecurity attacks and their consequences.
+b.  The number of ideologically motivated threat actors has increased
+Not directly stated but implied by the mention of hacktivism's expansion and the emergence of new groups, suggesting an increase in ideologically motivated actors.
+c. Ransomware attacks have increased
+There was an unprecedented surge in ransomware incidents, indicating an increase in such attacks.
+d. The impact of the attacks has increased
+The consequences of attacks have escalated, setting new benchmarks in the severity and impact of incidents.
+e. The overall number of threat actors has increased
+Not explicitly mentioned; while the report talks about the emergence of new hacktivist groups and a rise in ransomware groups, it does not directly state an overall increase in the number of threat actors.
+
+5. What was the main vector for ransomware delivery in 2023?
+The main vector for ransomware delivery in 2023 was d. URL links and web browsing, accounting for more than 77% of ransomware delivery cases. This indicates a notable shift from the traditional means of distributing ransomware, such as email attachments, to methods that exploit web browsing and URL links to spread ransomware.
+
+6. What is the total number of incidents related to the prime threat categories in the ETL during the reporting period?
+
+7. Number of incidents related to the prime threat categories in the ETL during the reporting period?
+Approximately 2’000
+
+8. Does the report identify sectors that were more affected by attacks than others? For example, in terms of the number of incidents?
+Yes, the report identifies sectors that were more affected by attacks than others. For example, during the reporting period, many events targeted organizations in the public administration and health sectors, indicating these sectors were more affected. The public administration sector experienced 19% of the incidents, health sector 8%, digital infrastructure 7%, and digital service providers 6%. These sectors were notably impacted due to their reliance on digital infrastructure and services, making them significant targets for various cyber threats.
+
+9. What do you think about characterizing the threat landscape mainly based on incidents that were publicly disclosed/discussed? List some pro and cons for this approach.
+Pros:
+Public disclosure of incidents raises awareness among organizations and individuals about potential cyber threats, helping them understand the importance of cybersecurity measures.
+Relying on publicly discussed incidents provides a wealth of information that can be analysed to identify trends, patterns, and emerging threats in the cyber landscape.
+Publicly discussing incidents allows for the sharing of lessons learned and best practices, facilitating knowledge transfer and helping others to mitigate similar risks.
+This approach promotes transparency within the cybersecurity community, which can lead to better collaboration and trust among stakeholders in combating cyber threats.
+Cons:
+Focusing only on publicly disclosed incidents may introduce bias, as not all incidents are reported. This could lead to an incomplete picture of the threat landscape.
+Some types of incidents may be less likely to be reported due to legal, reputational, or other reasons, potentially underrepresenting certain threats in the analysis.
+Publicly disclosed information may vary in quality and detail, making it challenging to verify the accuracy of the data and potentially leading to misinterpretations.
+There might be an overemphasis on high-profile or sensational incidents, which could skew the understanding of the overall threat landscape and divert attention from more systemic, widespread threats.
+
+10. What sources of information have been used to compile the report?
+NIST National Vulnerability Database (NVD): A primary repository for information on known vulnerabilities across a wide range of software and hardware products. It's continuously updated to reflect the latest vulnerability discoveries and assessments.
+CISA Known Exploited Vulnerability Catalogue (KEV): Catalogues vulnerabilities that are actively exploited by malicious actors, providing insights into vulnerabilities currently targeted in the cybersecurity landscape. The report used a snapshot of this catalogue as of August 12, 2022.
+FIRST Exploit Prediction Scoring System (EPSS): A tool for predicting the likelihood of a vulnerability being exploited, offering a scoring system that assesses the potential risk associated with vulnerabilities and providing valuable data and statistics related to vulnerabilities.
+Also, the report relies on publicly available information, such as blogs of affected or third-party companies.
+
+11. Do you consider the source of information as trusted and free of conflicts of interest? Why?
+We consider the source mostly conflict-free, as it is part of the European Nation, and therefore not controlled by a single company or state.
+While no source of information can be entirely free of conflicts of interest, the processes, governance, and community engagement surrounding these sources mitigate such risks, making them trusted references for understanding cybersecurity threats and vulnerabilities. However, the European Nation itself is still an organisation that might want to hide some incidents related to itself or paint an altered picture for political reasons.
+
+12. The return of social engineering tactics in the physical world, particularly through the use of QR codes and USB keys. This is surprising as it shows a shift back to more 'traditional' forms of deception, using physical media in an era dominated by digital threats. For home users, this highlights the critical need for vigilance in everyday physical interactions, not just online. The simplicity of scanning a QR code or plugging in a found USB drive, which has just been exposed with the potential for significant harm (malware infection, data theft), underlines an evolving threat vector that's easy to overlook but can have deeply personal consequences. The growing use of USB sticks to spread malware. While the use of USB sticks as an attack vector isn't new, its continued effectiveness and observed increase in use is. This trend is particularly relevant to home users because it exploits a basic human tendency: curiosity and the assumption of benign intent. The simplicity of leaving an infected USB stick in a place where someone might find and use it speaks to a low-tech but highly effective method of compromising security. It's a strong reminder that cybersecurity is not just about sophisticated digital firewalls and encryption, but also about basic awareness and caution with physical devices.
